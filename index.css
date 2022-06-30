@@ -1,0 +1,38 @@
+#Chrome {
+  display: none;
+}
+.w-slider-dot {
+  margin: 1em !important;
+  font-size: 1em;
+  padding: 1.75em;
+  width: 20%;
+  height: auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+}
+.w-active {
+  color: rgb(238, 49, 36);
+  border-bottom: 2px solid rgb(238, 49, 36);
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 20%);
+  background-color: #efefed !important;
+}
+.w-slider-nav.w-round > div {
+  border-radius: 0;
+}
+
+@media screen and (max-width: 991px) {
+  .w-slider-dot {
+    padding: 1em;
+    width: 45%;
+    font-size: 0.75em;
+  }
+}
+@media screen and (max-width: 479px) {
+  .w-slider-dot {
+    width: 40%;
+    font-size: 0.75em;
+  }
+}
